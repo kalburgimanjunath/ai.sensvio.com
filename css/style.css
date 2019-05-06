@@ -1,0 +1,350 @@
+@font-face {
+    font-family: 'Glober Thin Free';
+    src: url('fonts/GloberThinFree.eot');
+    src: url('fonts/GloberThinFree.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberThinFree.woff2') format('woff2'),
+        url('fonts/GloberThinFree.woff') format('woff'),
+        url('fonts/GloberThinFree.ttf') format('truetype'),
+        url('fonts/GloberThinFree.svg#GloberThinFree') format('svg');
+    font-weight: 100;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Glober SemiBold Free';
+    src: url('fonts/GloberSemiBoldFree.eot');
+    src: url('fonts/GloberSemiBoldFree.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberSemiBoldFree.woff2') format('woff2'),
+        url('fonts/GloberSemiBoldFree.woff') format('woff'),
+        url('fonts/GloberSemiBoldFree.ttf') format('truetype'),
+        url('fonts/GloberSemiBoldFree.svg#GloberSemiBoldFree') format('svg');
+    font-weight: 600;
+    font-style: bold;
+}
+
+.normalfont{
+	font-family: 'Glober Thin Free';
+}
+
+.boldfont{
+	font-family: 'Glober SemiBold Free';
+}
+
+
+body {
+  background-color: #fff;
+  font-family: 'Glober Thin Free', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Glober SemiBold Free', sans-serif;
+  font-weight: bold;
+  color: #5D5D5D;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  color: #95a5a6;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h4 {
+  color: #5D5D5D;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+/* Paragraph & Typographic */
+
+p {
+  margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Links */
+
+a {
+  color: #3498db;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before, a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: transparent;
+  min-height: 70px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-toggle {
+  background: #fff;
+}
+
+/* Helpers */
+
+.mt {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form-control {
+  height: 42px;
+  font-size: 18px;
+  width: 280px;
+}
+
+i {
+  margin: 8px;
+  color: #3498db;
+}
+
+/* HeaderWrap */
+
+#headerwrap {
+  background: url(../img/banner02922.jpg) no-repeat center top; 
+  //background-color: #3498db;
+      margin-top: 70px;
+    /* padding-top: 200px; */
+    background-attachment: relative;
+    background-position: center top;
+    min-height: 293px;
+    /* width: 100%; */
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+}
+
+#headerwrap h1 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 38px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  #headerwrap {
+    padding-top: 100px;
+  }
+
+  #headerwrap h1 {
+    margin-top: 10px;
+    font-size: 36px;
+  }
+}
+/* Contact Form */
+
+#contact {
+  padding: 40px 0;
+}
+
+.contact-form {}
+
+.contact-form label {
+  color: #999;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px 12px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  height: auto;
+  width: 100%;
+}
+
+.contact-form .form-send {
+  text-align: center;
+}
+
+.contact-form .form-send button {
+  background: #f0ad4e;
+  border: 0;
+  padding: 12px 30px;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.contact-form .form-send button:hover {
+  background: #fabf6b;
+}
+
+.contact-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-size: 13px;
+}
+
+.contact-form .loading {
+  display: none;
+  color: #555;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.contact-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.contact-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+/* Copyrights */
+
+#copyrights {
+  background: #192231;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+#copyrights a {
+  color: #fff;
+  font-size: 13px;
+}
+
+.credits {
+  color: #fff;
+}
+
+strong{
+	color:#FFC300;
+}
+.footerlinks{
+  /*background: #1A1C31;*/
+}
+
+.footerlinks li{
+  list-style: none;
+  text-align: left;
+  width: 200px;
+}
+
+.sociallinks li{
+    float: right;
+    display: inline-block;
+    width: auto;
+    margin: 5;
+}
+
+.contactus img{
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel{
+    margin-top: 0 !important;
+  }
+  .appdownload{
+    margin-top: 0 !important;
+  }
+  .mobileapp{
+    margin-top: 20px;
+    padding: 5px 5px 5px 15px;
+  }
+  .mobileapp h3{
+    margin: 20px 0 0 15px;
+  }
+
+   .mobileapp img{
+   margin: 10px 16px 0px 16px;
+  }
+  .services{
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+  }
+}
+
+.gettheappnow{
+  font-size: 26px;
+    margin-top: 40px;
+}
+
+.yelloline{
+    width: 100px;
+    margin-left: -60px;
+    margin-bottom: 20px;
+}
